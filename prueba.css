@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.header div {
+    background-color: green;
+    height: 100px;
+    grid-column: 2;
+}
+.section {
+    height: 500px;
+    /* background-color: blue; */
+}
+.div {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: blue;
+    grid-column: 2;
+
+}
+.text  {
+    grid-column: 2/3;
+}
+
